@@ -1,0 +1,405 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("amazonlogo.webp");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border: 0.5px solid white;
+}
+#deliver{
+    color:#CCCCCC;
+    font-size:12px;
+    margin-left:20px;
+}
+.india{
+    font-size:14px;
+    color:#FFFFFF;
+    display:flex;
+    align-items:center;
+    margin:3px;
+}
+.all{
+    margin-left:15px;
+    display:flex;
+    justify-content:space-evenly;
+    height:40px;
+    width: 620px;
+    background-color:pink;
+    border-radius:4px;
+}
+.all:hover{
+    border: 2px solid orange;
+}
+.select{
+    background-color:#F3F3F3;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    width:50px;
+    text-align:center;
+    border:none;
+}
+.input{
+    width:100%;
+font-size:1rem;
+border:none;
+}
+.search{
+    width:45px;
+    display:flex;
+    align-items:center;
+    background-color:#febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    justify-content:center;
+    font-size:large;
+    color:black;
+}
+.signin{
+    color:#FFFFFF;
+    font-size: 12px;
+}
+.account{
+    color:white;
+    font-size: 14px;
+}
+.cart{
+    display:flex;
+}
+.cart i{
+    font-size:30px;
+}
+#cart{
+    font-size:14px;
+    font-weight:700;
+}
+.panel{
+    width:100%;
+    height:39px;
+    background-color:#232F3E;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+}
+.heading{
+    display:flex;
+    color:white;
+    font-weight:700;
+}
+.All{
+    font-size:1rem;
+}
+.options p{
+    display:inline;
+    margin-left:15px;
+}
+.options{
+    width:70%;
+    font-size:0.85rem;
+}
+.shop{
+    font-size:0.9rem;
+    font-weight:bold;
+}
+/* hero-section */
+
+.hero-section{
+    background-image: url("image1.jpg");
+    background-size:cover;
+    width:100%;
+    height:330px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.message{
+    background-color:#F5F6F6;
+    color:#0F1111;
+    font-size:14px;
+    width:80%;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.link{
+    color:#007185;
+}
+.box{
+    width:303px;
+    height:378px;
+    background-color:white;
+    margin-top:10px;
+}
+.boxes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgb(250, 216, 250);
+}
+.box1 h2{
+  font-size:21px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+}
+.imagegame{
+  background-image:url("gameon.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+}
+.box1 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box2 h2{
+  font-size:18px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.playerparadise{
+  background-image:url("playerparadise.jpg");
+  height:280px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box2 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box3 h2{
+  font-size:20px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.fashion{
+  background-image:url("fashion.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box3 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box4 h2{
+  font-size:20px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.electronics{
+  background-image:url("electronics.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box4 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box5 h2{
+  font-size:20px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.makeup{
+  background-image:url("makeup.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box5 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box6 h2{
+  font-size:20px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.Watches{
+  background-image:url("watches.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box6 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box7 h2{
+  font-size:18px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.decor{
+  background-image:url("decor.jpg");
+  height:280px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box7 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.box8 h2{
+  font-size:20px;
+  color:#0F1111;
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.dining{
+  background-image:url("dining.jpg");
+  height:290px;
+  width: 250px;
+  background-size:cover;
+   margin-top: 10px;
+  margin-left:25px;
+  margin-right:25px;
+}
+.box8 p{
+    font-size: 13px;
+    color:#2162A1;
+    margin-left: 25px;
+    margin-top:10px;
+}
+/* footer */
+footer{
+    margin-top:15px;
+}
+.backtotop{
+    height:50px;
+    width:100%;
+    background-color:#37475A;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+}
+.list{
+    background-color:#222f3d;
+    color:white;
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.list p{
+    font-weight:700;
+    margin-top:60px;
+    font-size:16px;
+    margin-bottom:10px;
+}
+ul a{
+    display:block;
+    font-size:14px;
+    color:#DDDDDD;
+    margin-top:10px;
+}
+hr{
+    color:#DDDDDD;
+}
+.lastpanel{
+    background-color:#222f3d;
+    height:70px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.amazonimg{
+    background-image:url("amazonlogo.webp");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+.finaldiv{
+    background-color:#131A22;
+    width:100%;
+    height:80px;
+    color:white;
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+    font-size:12px;
+    color:#DDDDDD;
+}
+.conditions{
+    margin-left:5px;
+    text-align:center;
+    padding-top:20px;
+}
+.last{
+    text-align:center;
+    padding-top:5px;
+}
